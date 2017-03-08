@@ -1,19 +1,17 @@
 p {
   text-align: justify;   /* left, right, justify */
+
 }
 
 body {
-  /* imagem de fundo para a página */
   background-image: url(imagens/fundo.png);
-  font: arial;
-  /* faz o conteúdo da página começar a 10%
-    da largura lateralmente */
+  font-family: Arial, "Arial";
   margin-left: 10%;
   margin-right: 10%;
 }
 
 img {
-  border: 4px solid limegreen; /* azul, sólida, de 1px */
+  border: 4px solid limegreen;
 }
 
 h1{
@@ -21,7 +19,9 @@ h1{
 	font-size: 28px;
 	color: limegreen;
 }
+
 h2{
+  font-family: TimesNewRoman, "Times New Roman";
 	font-size: 24px;
 	color: limegreen;
 }
